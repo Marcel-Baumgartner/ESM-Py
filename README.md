@@ -1,8 +1,8 @@
 ### ESM-Py ###
 
-##Basic Information##
+## Basic Information ##
 
-A python variant for the **E**ndelon**S**server**M**anager
+A python variant for the **E**ndelon**S**erver**M**anager
 
 This is only developed for Endelon Hosting
 
