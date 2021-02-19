@@ -91,11 +91,25 @@ def __start__():
         print("Syntax esm start <ip>")
         exit(0)
 
+    if(database.existip("servers.xml", sys.argv[2]) == False):
+        print("[EEC]2")
+        exit(0)
+
     try:
         server = MinecraftServer.lookup(sys.argv[2])
         status = server.status()
 
         print("Server is already running")
+
+        motd = str(status.description)
+
+        if motd.find("[EEC]4") == -1:
+            print("Server is online")
+        else:
+            print("Wanted Error")
+            x = (1 / 0)
+
+        print("[EEC]3")
     except:
         print("Checking for memory")
 
@@ -162,9 +176,16 @@ def __scan__ ():
 
             server = MinecraftServer.lookup(ip)
             status = server.status()
-            print("Found {0} online player(s)".format(status.players.online))
 
             players = status.players.online
+
+            motd = str(status.description)
+
+            if motd.find("[EEC]4") == -1:
+                print("Server is online")
+            else:
+                print("Wanted Error")
+                x = (2 / 0)
 
             # Read current DateTime
 

@@ -43,3 +43,15 @@ def getramfromuser(filename, user):
             result = s.attributes['ram'].value
 
     return result
+
+def existip(filename, ip):
+    result = False
+
+    xmldoc = minidom.parse(filename)
+    itemlist = xmldoc.getElementsByTagName('server')
+
+    for s in itemlist:
+        if (s.attributes['ip'].value == ip):
+            result = True
+
+    return result
