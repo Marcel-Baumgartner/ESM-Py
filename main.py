@@ -15,6 +15,7 @@ import database
 from datetime import datetime
 programmpath = os.getcwd()
 import random
+import api
 
 # Config
 
@@ -28,6 +29,8 @@ startcommand = "./start_server.sh "
 def __main__ ():
 
     __libcheck__()
+
+    api.adduser()
 
     if(len(sys.argv) < 2):
         print("Systax: <scan|ram|add|delete|status|start>")
@@ -67,6 +70,7 @@ def __libcheck__ ():
 
     packagemanager.pinstall("mcstatus")
     packagemanager.pinstall("requests")
+
 
     # End Used Libs
 
