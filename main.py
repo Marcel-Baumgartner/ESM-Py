@@ -68,6 +68,7 @@ def __libcheck__ ():
 
     packagemanager.pinstall("mcstatus")
     packagemanager.pinstall("requests")
+    packagemanager.pinstall("urllib")
 
 
     # End Used Libs

@@ -94,3 +94,94 @@ def getram(id):
     ram = result.replace("<br>", "")
 
     return ram
+
+def gettype(id):
+    import requests
+
+    URL = "https://api.masusniper.de/gettype.php?id=" + id
+
+    r = requests.get(url=URL)
+
+    result = r.text
+
+    type = result.replace("<br>", "")
+
+    return type
+
+def getport(id):
+    import requests
+
+    URL = "https://api.masusniper.de/getport.php?id=" + id
+
+    r = requests.get(url=URL)
+
+    result = r.text
+
+    port = result.replace("<br>", "")
+
+    return port
+
+def getbungee(id):
+    import requests
+
+    URL = "https://api.masusniper.de/getbungee.php?id=" + id
+
+    r = requests.get(url=URL)
+
+    result = r.text
+
+    bungee = result.replace("<br>", "")
+
+    return bungee
+
+def getdomain(id):
+    import requests
+
+    URL = "https://api.masusniper.de/getdomain.php?id=" + id
+
+    r = requests.get(url=URL)
+
+    result = r.text
+
+    domain = result.replace("<br>", "")
+
+    return domain
+
+def getversion(id):
+    import requests
+
+    URL = "https://api.masusniper.de/getversion.php?id=" + id
+
+    r = requests.get(url=URL)
+
+    result = r.text
+
+    version = result.replace("<br>", "")
+
+    return version
+
+def geturl(version):
+    import requests
+
+    URL = "https://api.masusniper.de/geturl.php?name=" + version
+
+    r = requests.get(url=URL)
+
+    result = r.text
+
+    url = result.replace("<br>", "")
+
+    return url
+
+def getminecraft(id):
+    import requests
+
+    URL = "https://api.masusniper.de/getminecraft.php?id=" + id
+
+    r = requests.get(url=URL)
+
+    result = r.text
+
+    minecraft = result.replace("<br>", "")
+
+    return minecraft
