@@ -56,8 +56,41 @@ def getuserid(minecraft):
 
     return id
 
+def getserver(id):
+
+    import requests
+
+    URL = "https://api.masusniper.de/getserver.php?id=" + id
+
+    r = requests.get(url=URL)
+
+    result = r.text
+
+    server = result.replace("<br>", "")
+
+    return server
+
 def addserver(owner, version, type, bungee, port, domain, ram):
     import requests
 
     # api-endpoint
-    URL = "https://api.masusniper.de/getuserid.php?minecraft=" + minecraft
+    URL = "https://api.masusniper.de/getuserid.php?owner=" + owner + "&version" + version + "&type" + type + "&bungee" + bungee + "&port" + port + "&domain" + domain + "&ram" + ram
+
+    r = requests.get(url=URL)
+
+    result = r.text
+
+    return result
+
+def getram(id):
+    import requests
+
+    URL = "https://api.masusniper.de/getram.php?id=" + id
+
+    r = requests.get(url=URL)
+
+    result = r.text
+
+    ram = result.replace("<br>", "")
+
+    return ram

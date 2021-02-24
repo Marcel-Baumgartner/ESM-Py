@@ -30,8 +30,6 @@ def __main__ ():
 
     __libcheck__()
 
-    api.adduser()
-
     if(len(sys.argv) < 2):
         print("Systax: <scan|ram|add|delete|status|start>")
         exit(0)
