@@ -66,6 +66,7 @@ def __libcheck__ ():
     # Used Libs
 
     packagemanager.pinstall("mcstatus")
+    packagemanager.pinstall("requests")
 
     # End Used Libs
 

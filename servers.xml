@@ -1,14 +1,18 @@
 <servers>
-    <server ip="mc.masusniper.de:2028" owner="DerDoctorr" ram="1100" />
-    <server ip="mc.masusniper.de:2000" owner="Cyberblaze_lp" ram="1000" />
-    <server ip="mc.masusniper.de:2032" owner="AlexanderACraft" ram="900" />
-    <server ip="reflexgames.masusniper.de" owner="Maxicraft_HD" ram="900" />
-    <server ip="mc.masusniper.de:2030" owner="Nevicraft" ram="900" />
-    <server ip="mc.masusniper.de:2030" owner="Nevicraft" ram="900" />
-    <server ip="mc.masusniper.de:2002" owner="Yama_Builder" ram="900" />
-    <server ip="redstone-villa.masusniper.de" owner="BenBcraft" ram="900" />
-    <server ip="mc.masusniper.de:2015" owner="GameHero9355" ram="900" />
-    <server ip="mc.masusniper.de:2017" owner="melonenchaos44" ram="1000" />
-    <server ip="mc.masusniper.de:2013" owner="Wolfboy66" ram="900" />
-    <server ip="localhost:9999" owner="MaxDc81" ram="900" />
+        <server ip="build-craft-survival.masusniper.de" owner="SIBCenturioP" ram="900" />
+        <server ip="doktorjonson.masusniper.de" owner="doktorjonson" ram="900" />
+        <server ip="ca.masusniper.de" owner="GhoastMirsad" ram="900" />
+        <server ip="gamehero9355.masusniper.de" owner="Gamehero9355" ram="900" />
+        <server ip="littlesnackbox.masusniper.de" owner="LittleSnackbox" ram="900" />
+        <server ip="amgizzyluka1.masusniper.de" owner="AmgizzyLuka1" ram="900" />
+        <server ip="musabumeyr11.masusniper.de" owner="MusabUmeyr11" ram="900" />
+        <server ip="alexandera.masusniper.de" owner="AlexanderACraft" ram="900" />
+        <server ip="mc.masusniper.de:2009" owner="melonenchaos44" ram="1000" />
+        <server ip="redstone-villa.masusniper.de" owner="BenBcraft" ram="900" />
+        <server ip="mc.masusniper.de:2011" owner="DerDoctorr" ram="1000" />
+        <server ip="drummaxx.masusniper.de" owner="Drummaxx" ram="900" />
+        <server ip="jokerultimativ.masusniper.de" owner="Joker_ULTIMATIV" ram="900" />
+        <server ip="mc.masusniper.de:2015" owner="TheLarsCraft" ram="1000" />
+        <server ip="mc.masusniper.de:2016" owner="Max_on_300fps" ram="900" />
+        <server ip="liebeg-gaming.masusniper.de" owner="Liebeg" ram="900" />
 </servers>
